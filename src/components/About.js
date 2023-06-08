@@ -36,36 +36,12 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">First Name</span>
-                    Andrew
+                    Andrew Youn
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">Last Name</span>
-                    Youn
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Birthdate</span>21 june
-                    1990
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Nationality</span>
-                    English
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Experience</span>7 years
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Address</span>
-                    Istanbul
                   </h6>
                 </li>
               </ul>
@@ -84,34 +60,10 @@ const About = () => {
                     English
                   </h6>
                 </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Phone</span>+34 21 18 40
-                    10
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Email</span>
-                    you@you.com
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Skype</span>
-                    daria.taylor
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Dribbble</span>
-                    taylor.dribbble
-                  </h6>
-                </li>
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="#" className="btn btn-resume">
+              <a href="http://bit.ly/ayoun_resume" className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
                   download my cv
@@ -209,7 +161,7 @@ const About = () => {
                       <span className="d-block font-weight-400 uppercase">
                         software engineer intern
                         <span className="separator" />
-                        <span className="font-weight-700">Twitter</span>
+                        <span className="font-weight-700">OnePredict</span>
                       </span>
                     </div>
                     <div className="card-body">
@@ -238,7 +190,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2020 - 2025
+                        Aug. 2020 - May 2025
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Bachelor of Science
@@ -254,33 +206,28 @@ const About = () => {
                         major in <b>Computer Science</b>.
                       </p>
                     </div>
-                  </div>
-                </div>
-                {/* Item Ends */}
-                {/* Item Starts */}
-                <div className="item">
-                  <span className="bullet" />
-                  <div className="card">
-                    <div className="card-header">
-                      <span className="year">
-                        <i className="fa fa-calendar" />
-                        <i className="fa fa-caret-right" />
-                        2005 - 2007
-                      </span>
-                      <span className="d-block font-weight-400 uppercase">
-                        Masters Degree
-                        <span className="separator" />
-                        <span className="font-weight-700">
-                          Paris University
-                        </span>
-                      </span>
-                    </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        <b>Relevant Coursework</b>
                       </p>
+                      <div className="course-container">
+                        <p className="course-item">- 24-352 Dynamics Systems & Controls</p>
+                        <p className="course-item">- 24-322 Heat Transfer</p>
+                        <p className="course-item">- 24-351 Dynamics</p>
+                        <p className="course-item">- 24-321 Thermal Fluids Experimentation</p>
+                        <p className="course-item">- 24-370 Engineering Design I</p>
+                        <p className="course-item">- 24-221 Thermodynamics</p>
+                        <p className="course-item">- 24-231 Fluid Mechanics</p>
+                        <p className="course-item">- 24-261 Statics</p>
+                        <p className="course-item">- 24-262 Stress Analysis</p>
+                        <p className="course-item">- 15-440 Distributed Systems*</p>
+                        <p className="course-item">- 15-451 Algorithm Design & Analysis</p>
+                        <p className="course-item">- 15-251 Great Ideas in Theoretical CS</p>
+                        <p className="course-item">- 15-210 Parallel & Sequential Data Structures & Algorithms</p>
+                        <p className="course-item">- 15-213 Intro. to Computer Systems</p>
+                        <p className="course-item">- 15-150 Intro. to Functional Programming</p>
+                        <p className="course-item">- 15-122 Intro. to Imperative Computation</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -293,21 +240,22 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2001 - 2005
+                        March 2016 - Feb 2019
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Bachelor Degree
+                        High School Diploma
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Moscow High School
+                          Dankook High School
                         </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing
-                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                        diam nonummy.
+                        <b>STEM Track</b>
+                      </p>
+                      <p>
+                      - <b>Activities and societies:</b> Vice President, Dankook Aviation Club Head, Dankook Student Association (DSA) Activity Committee Chief Editor, ZEITGEIST (English School Newspaper Club)
                       </p>
                     </div>
                   </div>
