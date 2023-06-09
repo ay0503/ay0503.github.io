@@ -31,44 +31,19 @@ const About = () => {
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <ul className="list-1">
-                <li>
-                  <h6>
-                    <span className="font-weight-600">First Name</span>
-                    Andrew Youn
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Last Name</span>
-                  </h6>
-                </li>
+            <span>
+              <p>
+                I'm Andrew Youn, a student at Carnegie Mellon University studying Mechanical Engineering and Computer Science.
+                I've worked as a software engineer intern at Atlassian and OnePredict working on a variety of backend, testing, and tool projects.
+                My video game hobby tells me a lot about myself in my work.:
+              </p>
+              <p>
+                <b><i>"I hate losing more than I like winning."</i></b>
+              </p>
+            </span>
+            <div className="row col-xl-6 col-lg-6 col-md-12">
+              <ul className="list-12">
               </ul>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <ul className="list-2">
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Freelance</span>
-                    Available
-                  </h6>
-                </li>
-                <li>
-                  <h6>
-                    <span className="font-weight-600">Langages</span>
-                    English
-                  </h6>
-                </li>
-              </ul>
-            </div>
-            <div className="col-12 resume-btn-container">
-              <a href="http://bit.ly/ayoun_resume" className="btn btn-resume">
-                <span>
-                  <i className="fa fa-download" />
-                  download my cv
-                </span>
-              </a>
             </div>
           </div>
           {/* Personal Infos Ends */}
