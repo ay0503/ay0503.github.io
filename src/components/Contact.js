@@ -67,7 +67,9 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">Phone</span>
                     <i className="fa fa-whatsapp" />
-                    <span className="contact-content">+216 21 184 010</span>
+                    <span className="contact-content">
+                      +1 412 537 9374 <br/> +82 10 9787 5387
+                    </span>
                   </h6>
                 </li>
                 <li>
@@ -75,51 +77,17 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
-                    <span className="contact-content">info@daria.ua</span>
+                    <span className="contact-content">ayoun2@andrew.cmu.edu</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">instagram</span>
                     <i className="fa fa-instagram" />
-                    <span className="contact-content">daria.198</span>
-                  </h6>
-                </li>
-                <li>
-                  <h6 className="font-weight-600">
-                    <span className="contact-title">Dribbble </span>
-                    <i className="fa fa-dribbble" />
-                    <span className="contact-content">daria.dribble</span>
+                    <span className="contact-content">@theightine</span>
                   </h6>
                 </li>
               </ul>
-              {/* Social Media Profiles Starts */}
-              <div className="social">
-                <h6 className="font-weight-600 uppercase">Social Profiles</h6>
-                <ul className="list-inline social social-intro text-center p-none">
-                  <li className="facebook">
-                    <a title="Facebook" href="#">
-                      <i className="fa fa-facebook" />
-                    </a>
-                  </li>
-                  <li className="twitter">
-                    <a title="Twitter" href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li className="youtube">
-                    <a title="Youtube" href="#">
-                      <i className="fa fa-youtube" />
-                    </a>
-                  </li>
-                  <li className="dribbble">
-                    <a title="Dribbble" href="#">
-                      <i className="fa fa-dribbble" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* Social Media Profiles Ends */}
             </div>
             {/* Contact Infos Ends */}
             {/* Contact Form Starts */}

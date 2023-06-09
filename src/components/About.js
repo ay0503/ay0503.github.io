@@ -250,7 +250,7 @@ const About = () => {
             </div>
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">html</span>
+              <span className="skill-text">python</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -282,71 +282,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">css</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={75}
-                  style={{ width: "75%" }}
-                />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">jquery</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={65}
-                  style={{ width: "65%" }}
-                />
-                <span className="percent" style={{ right: "calc(35% - 21px)" }}>
-                  65%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">wordpress</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={90}
-                  style={{ width: "90%" }}
-                />
-                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
-                  90%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">angular js</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={85}
-                  style={{ width: "85%" }}
-                />
-                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
-                  85%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">illustrator</span>
+              <span className="skill-text">C</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -362,15 +298,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">after effects</span>
+              <span className="skill-text">sml/nj</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={75}
-                  style={{ width: "75%" }}
+                  data-percent={70}
+                  style={{ width: "70%" }}
                 />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
+                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
+                  70%
                   <b className="arrow" />
                 </span>
               </div>
@@ -378,7 +314,55 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">photoshop</span>
+              <span className="skill-text">React</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={50}
+                  style={{ width: "50%" }}
+                />
+                <span className="percent" style={{ right: "calc(50% - 21px)" }}>
+                  50%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">express</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={60}
+                  style={{ width: "60%" }}
+                />
+                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
+                  60%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">matlab</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={80}
+                  style={{ width: "80%" }}
+                />
+                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
+                  80%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">solidworks</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
