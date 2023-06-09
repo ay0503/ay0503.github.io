@@ -33,12 +33,12 @@ const About = () => {
           <div className="row col-xl-6 col-lg-6 col-md-12">
             <span>
               <p>
-                I'm Andrew Youn, a student at Carnegie Mellon University studying Mechanical Engineering and Computer Science.
-                I've worked as a software engineer intern at Atlassian and OnePredict working on a variety of backend, testing, and tool projects.
-                My video game hobby tells me a lot about myself in my work.:
+                I&apos;m Andrew Youn, a student at Carnegie Mellon University studying Mechanical Engineering and Computer Science.
+                I&apos;ve worked as a software engineer intern at Atlassian and OnePredict working on a variety of backend, testing, and tool projects.
+                My video game hobby tells me a lot about myself in my work:
               </p>
               <p>
-                <b><i>"I hate losing more than I like winning."</i></b>
+                <b><i>&quot;I hate losing more than I like winning.&quot;</i></b>
               </p>
             </span>
             <div className="row col-xl-6 col-lg-6 col-md-12">
