@@ -230,7 +230,9 @@ const About = () => {
                         <b>STEM Track</b>
                       </p>
                       <p>
-                      - <b>Activities and societies:</b> Vice President, Dankook Aviation Club Head, Dankook Student Association (DSA) Activity Committee Chief Editor, ZEITGEIST (English School Newspaper Club)
+                      - <b>Activities and societies:</b> Vice President, Dankook Aviation Club Head,
+                      Dankook Student Association (DSA) Activity Committee Chief Editor,
+                      ZEITGEIST (English School Newspaper Club)
                       </p>
                     </div>
                   </div>
@@ -377,7 +379,6 @@ const About = () => {
             </div>
             {/* Skill Bar Ends */}
           </div>
-          {/* Skills Starts */}
         </div>
         {/* Resume Ends */}
       </div>
