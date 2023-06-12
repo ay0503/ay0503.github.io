@@ -37,10 +37,9 @@ export const YoutubeSideBar = ({ playing }) => {
   }, [playing]);
   return (
     <div className="videocontainer">
-      <iframe
-        className="youtube-video"
-        src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&version=3&playerapiid=ytplayer"
-      />
+      <iframe className="youtube-video" src="https://www.youtube.com/embed/WDY8XgYB1e0"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+       gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   );
 };

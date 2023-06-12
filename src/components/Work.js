@@ -9,95 +9,30 @@ import {
 
 const workData = [
   {
-    img: "img/projects/project-1.jpg",
-    name: "Image Format",
+    img: "img/projects/ratemyschedule.jpg",
+    name: "RateMySchedule",
     format: "img",
     project: "WEBSITE",
-    client: "ENVATO",
     duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
+    technologies: ["HTML", "JAVASCRIPT", "EXPRESS"],
   },
   {
-    img: "img/projects/project-2.jpg",
-    name: "Youtube Format",
+    img: "img/projects/atc-simulator.jpg",
+    name: "Air Traffic Control Simulator",
     format: "youtube",
     project: "WEBSITE",
-    client: "ENVATO",
     duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
+    technologies: ["PYTHON"],
   },
   {
-    img: "img/projects/project-3.jpg",
-    name: "Slider Format",
-    format: "slider",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-4.jpg",
-    name: "Video Format",
-    format: "video",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-5.jpg",
-    name: "Image Format",
+    img: "img/projects/terrain-generator.jpg",
+    name: "Terrain Generator",
     format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
+    project: "APP",
     duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
+    technologies: ["Python"],
     budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-6.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-7.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-8.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
-  {
-    img: "img/projects/project-9.jpg",
-    name: "Image Format",
-    format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
-    budget: "1550 USD",
-  },
+  }
 ];
 
 const Work = () => {
@@ -191,17 +126,6 @@ const Work = () => {
                     </span>
                   </li>
                   <li>
-                    <i className="fa fa-user-o" />
-                    <span className="font-weight-400 project-label">
-                      {" "}
-                      Client{" "}
-                    </span>
-                    :{" "}
-                    <span className="font-weight-600 uppercase">
-                      {work.client}
-                    </span>
-                  </li>
-                  <li>
                     <i className="fa fa-hourglass-o" />
                     <span className="font-weight-400 project-label">
                       {" "}
@@ -225,24 +149,7 @@ const Work = () => {
                       ))}
                     </span>
                   </li>
-                  <li>
-                    <i className="fa fa-money" />{" "}
-                    <span className="font-weight-400 project-label">
-                      {" "}
-                      Budget
-                    </span>{" "}
-                    :{" "}
-                    <span className="font-weight-600 uppercase">
-                      {work.budget}
-                    </span>
-                  </li>
                 </ul>
-                <a href="#" className="btn">
-                  <span>
-                    <i className="fa fa-external-link" />
-                    preview
-                  </span>
-                </a>
               </div>
               <div className="col-6 p-none text-right">
                 <a
