@@ -41,6 +41,14 @@ const About = () => {
                 <b><i>&quot;I hate losing more than I like winning.&quot;</i></b>
               </p>
             </span>
+            <div className="col-12 resume-btn-container">
+              <a href="http://bit.ly/andrew_resume" className="btn btn-resume">
+                <span>
+                  <i className="fa fa-download" />
+                  download my cv
+                </span>
+              </a>
+            </div>
             <div className="row col-xl-6 col-lg-6 col-md-12">
               <ul className="list-12">
               </ul>
