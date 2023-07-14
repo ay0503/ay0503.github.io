@@ -34,11 +34,11 @@ const About = () => {
             <span>
               <p>
                 I&apos;m Andrew Youn, a student at Carnegie Mellon University studying Mechanical Engineering and Computer Science.
-                I&apos;ve worked as a software engineer intern at Atlassian and OnePredict working on a variety of backend, testing, and tool projects.
-                My video game hobby tells me a lot about myself in my work:
+                I&apos;ve worked as a software engineer intern at Atlassian and OnePredict working on a variety of backend, testing, and tool projects.:
+                I love solving problems and building things, and I&apos;m always looking for new opportunities to find the nails to my hammer.
               </p>
               <p>
-                <b><i>&quot;I hate losing more than I like winning.&quot;</i></b>
+                <b><i>&quot;We cannot solve our problems the same thinking we used to create them.&quot;</i></b>
               </p>
             </span>
             <div className="col-12 resume-btn-container">
