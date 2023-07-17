@@ -308,15 +308,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">sml/nj</span>
+              <span className="skill-text">TypeScript</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
+                  data-percent={60}
+                  style={{ width: "60%" }}
                 />
-                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
-                  70%
+                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
+                  60%
                   <b className="arrow" />
                 </span>
               </div>
@@ -340,15 +340,15 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">express</span>
+              <span className="skill-text">sml/nj</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
+                  data-percent={70}
+                  style={{ width: "70%" }}
                 />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
+                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
+                  70%
                   <b className="arrow" />
                 </span>
               </div>
@@ -381,6 +381,22 @@ const About = () => {
                 />
                 <span className="percent" style={{ right: "calc(20% - 21px)" }}>
                   80%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">express</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={60}
+                  style={{ width: "60%" }}
+                />
+                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
+                  60%
                   <b className="arrow" />
                 </span>
               </div>
