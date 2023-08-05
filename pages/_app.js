@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
           rel="stylesheet"
         />
-        {/* Template CSS Files */}
         <link
           type="text/css"
           media="all"
