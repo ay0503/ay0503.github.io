@@ -273,7 +273,7 @@ body.light .cd-stretchy-nav.lighter-in-portfolio ul a span {
 
 body.dark .nav-container > div > ul li:not(:last-child):not(:active):after,
 body.dark .chart-bar {
-  background: #555;
+  background: #39669c;
 }
 
 body.dark .skills li:before {
@@ -3017,4 +3017,16 @@ ul.social-intro li a:hover i {
   .page-title .title-head-subtitle {
     font-size: 14px;
   }
+}
+
+.tech-badge {
+  display: inline-block;
+  background-color: #eef2ff;
+  color: #4338ca;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-bottom: 5px;
 }

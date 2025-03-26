@@ -34,7 +34,7 @@ const About = () => {
             <span>
               <p>
                 I&apos;m Andrew Youn, a student at Carnegie Mellon University studying Mechanical Engineering and Computer Science.
-                I&apos;ve worked as a software engineer intern at Atlassian and OnePredict working on a variety of backend, testing, and tool projects.:
+                I&apos;ve mostly worked as a software engineer intern at Atlassian working on a variety of backend, testing, and data sync related projects.:
                 I love solving problems and building things, and I&apos;m always looking for new opportunities to find the nails to my hammer.
               </p>
               <p>
@@ -72,15 +72,15 @@ const About = () => {
                 experience
               </h2>
               <div className="resume-items">
-                {/* Item Starts */}
-                <div className="item">
+              {/* Item Starts */}
+              <div className="item">
                   <span className="bullet" />
                   <div className="card">
                     <div className="card-header">
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        May 2023 - Present
+                        May 2024 - Aug. 2024
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         software engineer intern
@@ -90,9 +90,18 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Worked on the Trello backend engineering team and built
-                        a background task component using AWS SQS and Heartbeats
-                        that increases task efficiency using locks and retry logic.
+                        <strong>Jira Align Connectors Team</strong>
+                      </p>
+                      <p>
+                        - Collaborated with cross-functional teams to develop a mass work-item force synchronization tool between Jira and Jira Align connectors, improving productivity by 20% through data-driven insights from Splunk logs.
+
+                      </p>
+                      <p>
+                        - Migrated SQL stored procedures to a unified data access layer, significantly boosting query performance and enhancing code modularity; executed thorough tSQL testing to reduce error rates by 60%.
+
+                      </p>
+                      <p>
+                        - Designed and implemented a customizable OpenAPI API controller generation template and a reusable React component.
                       </p>
                     </div>
                   </div>
@@ -106,7 +115,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Aug 2021 - Present
+                        Aug. 2021 - Dec. 2022 , Aug. 2023 - May 2024
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Teaching Assistant
@@ -139,7 +148,40 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        May 2022 - Aug 2022
+                        May 2023 - Aug. 2023
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        software engineer intern
+                        <span className="separator" />
+                        <span className="font-weight-700">Atlassian</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                        <strong>Trello Backend Platform Engineering Team</strong>
+                      </p>
+                      <p>
+                        - Enhanced Trello backend integration tests by implementing an asynchronous, safe-socket testing framework, resulting in 15% improvement in request/response consistency and testing pipeline efficiency.
+                      </p>
+                      <p>
+                        - Developed a robust, fully unit-tested background task API leveraging AWS SQS queues and distributed heartbeats to automate scheduled tasks, including locking mechanisms, retry logic, and priority heuristics.
+                      </p>
+                      <p>
+                        - Migrated entire server-side codebase to TypeScript, significantly enhancing readability, maintainability, and scalability, preparing the system for seamless future product integration.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
+                {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        May 2022 - Aug. 2022
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         software engineer intern
@@ -173,7 +215,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Aug. 2020 - May 2025
+                        Aug. 2020 - Dec. 2024
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Bachelor of Science
@@ -185,7 +227,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        Studying <b>Mechanical Engineering</b> with an additional
+                        Graduated with degree in <b>Mechanical Engineering</b> with an additional
                         major in <b>Computer Science</b>.
                       </p>
                     </div>
@@ -194,6 +236,9 @@ const About = () => {
                         <b>Relevant Coursework</b>
                       </p>
                       <div className="course-container">
+                        <p className="course-item">- 24-441 Product Design</p>
+                        <p className="course-item">- 24-452 Mechanical System Experimentation</p>
+                        <p className="course-item">- 24-780 Engineering Computation</p>
                         <p className="course-item">- 24-352 Dynamics Systems & Controls</p>
                         <p className="course-item">- 24-322 Heat Transfer</p>
                         <p className="course-item">- 24-351 Dynamics</p>
@@ -203,13 +248,15 @@ const About = () => {
                         <p className="course-item">- 24-231 Fluid Mechanics</p>
                         <p className="course-item">- 24-261 Statics</p>
                         <p className="course-item">- 24-262 Stress Analysis</p>
-                        <p className="course-item">- 15-440 Distributed Systems*</p>
+                        <p className="course-item">- 17-313 Fundamentals of Software Engineering</p>
+                        <p className="course-item">- 15-317 Constructive Logic</p>
+                        <p className="course-item">- 11-485 Intro. to Deep Learning</p>
+                        <p className="course-item">- 15-440 Distributed Systems</p>
                         <p className="course-item">- 15-451 Algorithm Design & Analysis</p>
                         <p className="course-item">- 15-251 Great Ideas in Theoretical CS</p>
                         <p className="course-item">- 15-210 Parallel & Sequential Data Structures & Algorithms</p>
                         <p className="course-item">- 15-213 Intro. to Computer Systems</p>
                         <p className="course-item">- 15-150 Intro. to Functional Programming</p>
-                        <p className="course-item">- 15-122 Intro. to Imperative Computation</p>
                       </div>
                     </div>
                   </div>
@@ -223,7 +270,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        March 2016 - Feb 2019
+                        March 2016 - Feb. 2019
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         High School Diploma
@@ -262,31 +309,41 @@ const About = () => {
             <div className="col-12 col-sm-6 col-md-4">
               <span className="skill-text">python</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
-                />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
-                  <b className="arrow" />
-                </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">javascript</span>
+              <span className="skill-text">typescript/javascript [Node, React, Express]</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
-                />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">C# [.NET, ASP]</span>
+              <div className="chart-bar">
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">SQL [sprocs, tsql]</span>
+              <div className="chart-bar">
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">MongoDB</span>
+              <div className="chart-bar">
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">AWS [Lambda, S3, Cloudwatch, SQS]</span>
+              <div className="chart-bar">
               </div>
             </div>
             {/* Skill Bar Ends */}
@@ -294,47 +351,13 @@ const About = () => {
             <div className="col-12 col-sm-6 col-md-4">
               <span className="skill-text">C</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
-                />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">TypeScript</span>
+              <span className="skill-text">C++</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
-                />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">React</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={50}
-                  style={{ width: "50%" }}
-                />
-                <span className="percent" style={{ right: "calc(50% - 21px)" }}>
-                  50%
-                  <b className="arrow" />
-                </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
@@ -342,15 +365,6 @@ const About = () => {
             <div className="col-12 col-sm-6 col-md-4">
               <span className="skill-text">sml/nj</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={70}
-                  style={{ width: "70%" }}
-                />
-                <span className="percent" style={{ right: "calc(30% - 21px)" }}>
-                  70%
-                  <b className="arrow" />
-                </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
@@ -358,15 +372,6 @@ const About = () => {
             <div className="col-12 col-sm-6 col-md-4">
               <span className="skill-text">matlab</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
-                />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
-                  <b className="arrow" />
-                </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
@@ -374,31 +379,6 @@ const About = () => {
             <div className="col-12 col-sm-6 col-md-4">
               <span className="skill-text">solidworks</span>
               <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={80}
-                  style={{ width: "80%" }}
-                />
-                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
-                  80%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">express</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={60}
-                  style={{ width: "60%" }}
-                />
-                <span className="percent" style={{ right: "calc(40% - 21px)" }}>
-                  60%
-                  <b className="arrow" />
-                </span>
               </div>
             </div>
             {/* Skill Bar Ends */}
