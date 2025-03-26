@@ -42,7 +42,7 @@ const About = () => {
               </p>
             </span>
             <div className="col-12 resume-btn-container">
-              <a href="http://bit.ly/andrew_resume" className="btn btn-resume">
+              <a href="https://drive.google.com/file/d/1tRQ1cbHw0bD7w-V1DUcgBM93NEJA8PuZ/view?usp=sharing" className="btn btn-resume">
                 <span>
                   <i className="fa fa-download" />
                   download my cv
