@@ -33,7 +33,7 @@ const About = () => {
           <div className="row col-xl-6 col-lg-6 col-md-12">
             <span>
               <p>
-                I&apos;m Andrew Youn, a student at Carnegie Mellon University studying Mechanical Engineering and Computer Science.
+                I&apos;m Andrew Youn, an incoming software engineer at Bloomberg. I graduated from Carnegie Mellon University with a degree in Mechanical Engineering and an additional major in Computer Science.
                 I&apos;ve mostly worked as a software engineer intern at Atlassian working on a variety of backend, testing, and data sync related projects.:
                 I love solving problems and building things, and I&apos;m always looking for new opportunities to find the nails to my hammer.
               </p>
@@ -72,6 +72,27 @@ const About = () => {
                 experience
               </h2>
               <div className="resume-items">
+              {/* Item Starts */}
+              <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        Oct 2025 -
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        incoming software engineer
+                        <span className="separator" />
+                        <span className="font-weight-700">Bloomberg</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
               {/* Item Starts */}
               <div className="item">
                   <span className="bullet" />
