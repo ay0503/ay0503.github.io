@@ -10,7 +10,7 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className="title-head-subtitle">
-          I solve problems with deeper problems to find a deeper solution.
+          I solve problems with my own problems to get to the solution.
         </span>
       </div>
       {/* Main Heading Ends */}
