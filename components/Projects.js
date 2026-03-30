@@ -2,38 +2,52 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const projects = [
   {
+    name: "$DORI LP Tracker",
+    description:
+      "A Robinhood-style fantasy trading platform built around a friend's League of Legends ranked LP. Trade leveraged and inverse ETFs, collect match-based dividends, compete on a leaderboard, and read AI-generated meme news — all powered by live Riot API data. 244 commits and counting.",
+    tech: ["React", "TypeScript", "tRPC", "SQLite", "Riot API", "AI"],
+    github: "https://github.com/ay0503/lol-tracker",
+    live: "https://lol-tracker-ivory.vercel.app",
+    image: null,
+    date: "2026",
+  },
+  {
     name: "NodeBB Open Source",
     description:
-      "Implemented a claim feature in NodeBB, designing and deploying REST APIs to handle claim consistency. Added multi-language support by building a post and comment translator, leveraging Azure's server deployment and a custom LLM translator service to process and translate user content.",
+      "Implemented a claim feature in NodeBB with REST APIs for claim consistency. Built a multi-language post and comment translator using Azure and a custom LLM translator service.",
     tech: ["JavaScript", "Node.js", "REST API", "Azure", "LLM"],
-    github: "https://github.com/ay0503",
+    github: "https://github.com/ay0503/NodeBB",
+    live: null,
     image: null,
-    date: "Sep 2024 - Dec 2024",
+    date: "2024",
   },
   {
     name: "RateMySchedule",
     description:
-      "A web application that helps students rate and compare their course schedules, built with a modern JavaScript stack featuring Express on the backend.",
+      "A web app that helps students rate and compare their course schedules, built with Express on the backend.",
     tech: ["HTML", "JavaScript", "Express"],
     github: "https://github.com/ay0503",
+    live: null,
     image: "/img/projects/ratemyschedule.jpg",
     date: "2023",
   },
   {
     name: "Air Traffic Control Simulator",
     description:
-      "A Python-based simulation of air traffic control systems, modeling aircraft movement, collision avoidance, and controller decision-making in a realistic environment.",
+      "A Python simulation of air traffic control systems, modeling aircraft movement, collision avoidance, and controller decision-making.",
     tech: ["Python"],
-    github: "https://github.com/ay0503",
+    github: "https://github.com/ay0503/Air-Traffic-Control-Simulator",
+    live: null,
     image: "/img/projects/atc-simulator.jpg",
     date: "2022",
   },
   {
     name: "Terrain Generator",
     description:
-      "A procedural terrain generation application that creates realistic 3D landscapes using algorithmic techniques and noise functions.",
+      "A procedural terrain generation app that creates realistic 3D landscapes using noise functions.",
     tech: ["Python"],
     github: "https://github.com/ay0503",
+    live: null,
     image: "/img/projects/terrain-generator.jpg",
     date: "2022",
   },
@@ -45,8 +59,7 @@ const Projects = () => {
       <span className="section-label">03. Projects</span>
       <h2 className="section-title">Things I&apos;ve Built</h2>
       <p className="section-subtitle">
-        A selection of personal and open-source projects that showcase my
-        engineering skills and interests.
+        Side projects, weekend rabbit holes, and open-source contributions.
       </p>
 
       <div className="projects-grid">
@@ -78,6 +91,16 @@ const Projects = () => {
                     className="project-link"
                   >
                     <FiGithub /> Code
+                  </a>
+                )}
+                {project.live && (
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    <FiExternalLink /> Live
                   </a>
                 )}
               </div>

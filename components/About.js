@@ -6,24 +6,17 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I&apos;m Andrew, a <strong>Software Engineer at WhatsApp (Meta)</strong> on
-            the <strong>iOS Groups &amp; Communities</strong> team based in Menlo Park.
-            I work on features and infrastructure that power group messaging for
-            over two billion people &mdash; from shipping user-facing features like
-            pinned messages to large-scale codebase modularization efforts.
+            I like building things, and AI has made that dangerously easy. At
+            work, I ship features on <strong>WhatsApp iOS</strong> for the{" "}
+            <strong>Groups &amp; Communities</strong> team &mdash; most recently
+            Group History for 2B+ users. In my free time, I use AI tools to go
+            from dumb idea to deployed app as fast as possible &mdash; like
+            turning my friend&apos;s League of Legends ranked grind into a full
+            Robinhood-style trading sim with leveraged ETFs and AI meme news.
           </p>
           <p>
-            I graduated from <strong>Carnegie Mellon University</strong> with a B.S.
-            in Mechanical Engineering and an additional major in Computer Science,
-            earning <strong>Dean&apos;s List with High Honors</strong>. Before Meta,
-            I interned twice at <strong>Atlassian</strong> (Jira Align and Trello
-            backend teams), taught CS at CMU for three years, and built fault
-            classification systems at <strong>OnePredict</strong>.
-          </p>
-          <p>
-            Day to day, I ship features, write E2E tests, run A/B experiments at
-            scale, and chip away at modularization debt. I care about code quality,
-            accessibility, and building things that actually work for real people.
+            CMU <strong>MechE + CS</strong> grad.
+            Previously <strong>Atlassian</strong> (&times;2).
           </p>
         </div>
 
@@ -34,7 +27,7 @@ const About = () => {
           </div>
           <div className="highlight-card">
             <div className="highlight-number">CMU</div>
-            <div className="highlight-label">B.S. MechE + CS</div>
+            <div className="highlight-label">MechE + CS</div>
           </div>
           <div className="highlight-card">
             <div className="highlight-number">50+</div>
