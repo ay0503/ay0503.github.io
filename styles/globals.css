@@ -646,19 +646,6 @@ ul, ol {
   margin-top: 3rem;
 }
 
-.skills-category {
-  margin-bottom: 2rem;
-}
-
-.skills-category-title {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 1rem;
-}
-
 .skills-list {
   display: flex;
   flex-wrap: wrap;
