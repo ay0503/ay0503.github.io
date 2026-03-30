@@ -3,13 +3,8 @@ const experiences = [
     company: "WhatsApp (Meta)",
     role: "Software Engineer",
     date: "Sep 2025 - Present",
-    team: "iOS — Groups & Communities",
-    bullets: [
-      "Shipped Out-of-Window Pinned Messages end-to-end — a 12-diff feature stack covering sender bundles, receiver processing, pin count limits, notice messages, franking tokens, and logging for WhatsApp's 2B+ users.",
-      "Driving GCSM modularization: migrating feature-specific code from shared host modules into XPlugins socket plugins, landing 16+ MessageBubble plugin event migrations and multi-module cleanup diffs.",
-      "Built group-level A/B experiment infrastructure including ABProp override support, Jest E2E test scaffolding, and dogfooding rules across iOS and web.",
-      "Improved accessibility with VoiceOver fixes for group system messages and UI flicker issues, and contributed to invite link cleanup by removing legacy controllers and 11 dead files.",
-    ],
+    team: "iOS — Messaging Groups",
+    bullets: [],
   },
   {
     company: "Atlassian",
