@@ -6,38 +6,39 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I&apos;m Andrew Youn, a <strong>Software Engineer at Meta</strong>.
-            I graduated from <strong>Carnegie Mellon University</strong> with a
-            B.S. in Mechanical Engineering and an additional major in Computer
-            Science, earning <strong>Dean&apos;s List with High Honors</strong> (QPA: 3.43/4.0).
+            I&apos;m Andrew, a <strong>Software Engineer at WhatsApp (Meta)</strong> on
+            the <strong>iOS Groups &amp; Communities</strong> team based in Menlo Park.
+            I work on features and infrastructure that power group messaging for
+            over two billion people &mdash; from shipping user-facing features like
+            pinned messages to large-scale codebase modularization efforts.
           </p>
           <p>
-            My journey into software started at CMU where I bridged the gap
-            between mechanical systems and code. I&apos;ve worked across the stack
-            &mdash; from building distributed backend systems at <strong>Atlassian</strong> to
-            creating fault classification systems at <strong>OnePredict</strong>,
-            and teaching hundreds of students as a <strong>CS Teaching Assistant</strong>.
+            I graduated from <strong>Carnegie Mellon University</strong> with a B.S.
+            in Mechanical Engineering and an additional major in Computer Science,
+            earning <strong>Dean&apos;s List with High Honors</strong>. Before Meta,
+            I interned twice at <strong>Atlassian</strong> (Jira Align and Trello
+            backend teams), taught CS at CMU for three years, and built fault
+            classification systems at <strong>OnePredict</strong>.
           </p>
           <p>
-            I thrive on solving complex engineering problems and building
-            reliable, scalable systems. Whether it&apos;s designing APIs,
-            migrating codebases, or optimizing data pipelines, I bring a
-            methodical, impact-driven approach to everything I build.
+            Day to day, I ship features, write E2E tests, run A/B experiments at
+            scale, and chip away at modularization debt. I care about code quality,
+            accessibility, and building things that actually work for real people.
           </p>
         </div>
 
         <div className="about-highlights">
           <div className="highlight-card">
-            <div className="highlight-number">3+</div>
-            <div className="highlight-label">Years of Experience</div>
+            <div className="highlight-number">2B+</div>
+            <div className="highlight-label">Users Served</div>
           </div>
           <div className="highlight-card">
             <div className="highlight-number">CMU</div>
             <div className="highlight-label">B.S. MechE + CS</div>
           </div>
           <div className="highlight-card">
-            <div className="highlight-number">500+</div>
-            <div className="highlight-label">Students Mentored</div>
+            <div className="highlight-number">50+</div>
+            <div className="highlight-label">Diffs Shipped</div>
           </div>
           <div className="highlight-card">
             <div className="highlight-number">4</div>

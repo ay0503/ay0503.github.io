@@ -8,12 +8,12 @@ const Hero = () => {
           <p className="hero-greeting">Hi, my name is</p>
           <h1 className="hero-name">Andrew Youn.</h1>
           <h2 className="hero-title">
-            Software Engineer at <strong>Meta</strong>
+            Software Engineer at <strong>WhatsApp (Meta)</strong>
           </h2>
           <p className="hero-description">
-            I graduated from Carnegie Mellon University with a B.S. in Mechanical
-            Engineering and Computer Science. I love building things that solve
-            real problems and am always looking for the next challenge.
+            iOS engineer on WhatsApp&apos;s Groups &amp; Communities team,
+            shipping features to 2B+ users. CMU MechE + CS grad who
+            loves building at scale and sweating the details.
           </p>
           <div className="hero-cta">
             <a href="#experience" className="btn-primary">
