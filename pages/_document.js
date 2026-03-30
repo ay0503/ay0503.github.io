@@ -11,6 +11,8 @@ export default function Document() {
         <meta property="og:description" content="Software Engineer at Meta. CMU graduate in Mechanical Engineering + Computer Science." />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>
       <body>
         <Main />
