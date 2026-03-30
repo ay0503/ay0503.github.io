@@ -1,31 +1,32 @@
-import dynamic from "next/dynamic";
-import About from "../src/components/About";
-import Blog from "../src/components/Blog";
-import Contact from "../src/components/Contact";
-import Home from "../src/components/Home";
-import Layouts from "../src/layouts/Layouts";
-const Work = dynamic(() => import("../src/components/Work"), {
-  ssr: false,
-});
+import Nav from "../components/Nav";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
 const Index = () => {
   return (
-    <Layouts bodyCls={"dark fullscreendark"}>
-      {/* Back To Home Ends [ONLY MOBILE] */}
-      {/* Home Section Starts */}
-      <Home />
-      {/* Home Section Ends */}
-      {/* About Section Starts */}
-      <About />
-      {/* About Section Ends */}
-      {/* Portfolio Section Starts */}
-      <Work />
-      {/* Portfolio Section Ends */}
-      {/* Contact Section Starts */}
-      <Contact />
-      {/* Contact Section Ends */}
-      {/* Blog Section Starts */}
-      <Blog />
-    </Layouts>
+    <>
+      <Nav />
+      <main>
+        <Hero />
+        <div className="section-divider"><hr /></div>
+        <About />
+        <div className="section-divider"><hr /></div>
+        <Experience />
+        <div className="section-divider"><hr /></div>
+        <Projects />
+        <div className="section-divider"><hr /></div>
+        <Skills />
+        <div className="section-divider"><hr /></div>
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 };
+
 export default Index;

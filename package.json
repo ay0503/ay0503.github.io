@@ -1,6 +1,6 @@
 {
-  "name": "istanbul-react",
-  "version": "0.1.0",
+  "name": "andrew-youn-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0",
-    "emailjs-com": "^3.2.0",
-    "next": "^12.2.2",
-    "next-videos": "^1.5.0",
-    "react": "18.2.0",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "18.2.0",
-    "react-moving-text": "^0.0.7"
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "framer-motion": "^11.0.0",
+    "react-icons": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2"
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.2.0"
   }
 }
