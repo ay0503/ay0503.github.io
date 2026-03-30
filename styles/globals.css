@@ -8,7 +8,10 @@
   --text: #a1a1aa;
   --text-bright: #fafafa;
   --text-dim: #52525b;
-  --accent: #e4e4e7;
+  --accent: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-glow: rgba(59, 130, 246, 0.15);
+  --gradient: linear-gradient(135deg, #3b82f6, #06b6d4);
   --highlight: #ffffff;
   --font: 'Inter', -apple-system, sans-serif;
   --mono: 'JetBrains Mono', monospace;
@@ -33,8 +36,8 @@ body {
 }
 
 ::selection {
-  background: var(--text-bright);
-  color: var(--bg);
+  background: var(--accent);
+  color: var(--highlight);
 }
 
 /* ===== NAV ===== */
@@ -78,19 +81,20 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--text-bright);
+  color: var(--accent);
 }
 
 .nav-resume {
   padding: 0.4rem 1rem;
-  border: 1px solid var(--border);
+  border: 1px solid var(--accent);
   border-radius: 6px;
-  transition: background 0.2s, border-color 0.2s;
+  color: var(--accent) !important;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 
 .nav-resume:hover {
-  background: var(--bg-card);
-  border-color: var(--border-hover);
+  background: var(--accent-glow);
+  box-shadow: 0 0 20px var(--accent-glow);
 }
 
 /* ===== HERO ===== */
@@ -107,7 +111,7 @@ body {
 .hero-label {
   font-family: var(--mono);
   font-size: 0.85rem;
-  color: var(--text-dim);
+  color: var(--accent);
   margin-bottom: 1.5rem;
   letter-spacing: 0.05em;
 }
@@ -115,7 +119,10 @@ body {
 .hero h1 {
   font-size: clamp(3rem, 8vw, 5.5rem);
   font-weight: 800;
-  color: var(--text-bright);
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   line-height: 1.05;
   letter-spacing: -0.04em;
   margin-bottom: 1.5rem;
@@ -152,12 +159,12 @@ body {
 }
 
 .hero-links a:hover {
-  color: var(--text-bright);
+  color: var(--accent);
 }
 
 .scroll-hint {
   margin-top: 4rem;
-  color: var(--text-dim);
+  color: var(--accent);
   font-size: 0.75rem;
   font-family: var(--mono);
   letter-spacing: 0.1em;
@@ -179,7 +186,7 @@ body {
 .section-label {
   font-family: var(--mono);
   font-size: 0.75rem;
-  color: var(--text-dim);
+  color: var(--accent);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   display: block;
@@ -286,7 +293,7 @@ body {
   content: "—";
   position: absolute;
   left: 0;
-  color: var(--text-dim);
+  color: var(--accent);
 }
 
 /* ===== PROJECTS ===== */
@@ -301,11 +308,12 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 12px;
-  transition: border-color 0.2s;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .project-card:hover {
-  border-color: var(--border-hover);
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 30px var(--accent-glow);
 }
 
 .project-top {
@@ -335,7 +343,7 @@ body {
 }
 
 .project-links a:hover {
-  color: var(--text-bright);
+  color: var(--accent);
 }
 
 .project-desc {
@@ -357,7 +365,7 @@ body {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 4px;
-  color: var(--text);
+  color: var(--accent-cyan);
 }
 
 /* ===== SKILLS ===== */
@@ -374,19 +382,23 @@ body {
   border: 1px solid var(--border);
   border-radius: 100px;
   color: var(--text);
-  transition: border-color 0.2s, color 0.2s;
+  transition: border-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .skill-chip:hover {
-  border-color: var(--border-hover);
-  color: var(--text-bright);
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 15px var(--accent-glow);
 }
 
 /* ===== CONTACT ===== */
 .contact-big {
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 700;
-  color: var(--text-bright);
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: -0.03em;
   margin-bottom: 1rem;
 }
@@ -412,7 +424,7 @@ body {
 }
 
 .contact-links a:hover {
-  color: var(--text-bright);
+  color: var(--accent);
 }
 
 /* ===== FOOTER ===== */
