@@ -31,7 +31,7 @@ export default function Home() {
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-          <a href="/Andrew_Youn_Resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-resume">Resume</a>
+          <a href="https://docs.google.com/document/d/1wgeyhsRzR5sQ5rvHGAy7riyKQEqNgo1lQe-J7uVkhDw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-resume">Resume</a>
         </div>
       </nav>
 
