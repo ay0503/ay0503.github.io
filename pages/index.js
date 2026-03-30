@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useState, useEffect } from "react";
 
 const experiences = [
   { company: "WhatsApp (Meta)", role: "Software Engineer", date: "2025 —", team: "iOS — Messaging Groups", bullets: [] },
@@ -17,6 +18,25 @@ const projects = [
 const skills = ["Swift", "Objective-C", "Python", "TypeScript", "React", "Node.js", "Git", "Docker", "AWS", "Go"];
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Close menu on resize to desktop
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 640) setMenuOpen(false);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Prevent body scroll when menu is open
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [menuOpen]);
+
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <>
       <Head>
@@ -33,7 +53,25 @@ export default function Home() {
           <a href="#contact">Contact</a>
           <a href="https://docs.google.com/document/d/1wgeyhsRzR5sQ5rvHGAy7riyKQEqNgo1lQe-J7uVkhDw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-resume">Resume</a>
         </div>
+        <button
+          className={`hamburger ${menuOpen ? "open" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
+        <a href="#about" onClick={closeMenu}>About</a>
+        <a href="#experience" onClick={closeMenu}>Experience</a>
+        <a href="#projects" onClick={closeMenu}>Projects</a>
+        <a href="#contact" onClick={closeMenu}>Contact</a>
+        <a href="https://docs.google.com/document/d/1wgeyhsRzR5sQ5rvHGAy7riyKQEqNgo1lQe-J7uVkhDw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" onClick={closeMenu} className="mobile-resume">Resume</a>
+      </div>
 
       {/* Hero */}
       <section className="hero" id="hero">
