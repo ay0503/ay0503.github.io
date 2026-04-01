@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 
 const experiences = [
-  { company: "WhatsApp (Meta)", role: "Software Engineer", date: "2025 —", team: "iOS — Messaging Groups", bullets: [] },
+  { company: "WhatsApp (Meta)", role: "Software Engineer", date: "2025 —", team: "iOS — Groups & Communities", bullets: ["Shipped Group History — browse and search past group conversations at scale"] },
   { company: "Atlassian", role: "SWE Intern", date: "2024", team: "Jira Align Connectors", bullets: ["Built mass work item force sync tool, 20% productivity increase", "Migrated SQL stored procedures, 60% error rate reduction"] },
   { company: "CMU SCS", role: "Teaching Assistant", date: "2021 — 24", team: "15-112 Fundamentals of Programming", bullets: ["Led recitations, coordinated 10+ TAs for 500+ students"] },
   { company: "Atlassian", role: "SWE Intern", date: "2023", team: "Trello Backend Platform", bullets: ["Built async-safe socket testing framework", "Designed background task API with AWS SQS"] },
@@ -10,12 +10,12 @@ const experiences = [
 ];
 
 const projects = [
-  { name: "$DORI LP Tracker", desc: "Robinhood-style fantasy trading platform around a friend's League LP. Leveraged ETFs, dividends, AI meme news. 244 commits.", tech: ["React", "TypeScript", "tRPC", "SQLite", "Riot API"], github: "https://github.com/ay0503/lol-tracker", live: "https://lol-tracker-ivory.vercel.app" },
+  { name: "$DORI LP Tracker", desc: "Full-stack Robinhood-style trading sim built around a friend's League of Legends ranked grind — leveraged ETFs, dividends, AI-generated meme news. 244 commits from idea to production, built with AI-assisted development.", tech: ["React", "TypeScript", "tRPC", "SQLite", "Riot API"], github: "https://github.com/ay0503/lol-tracker", live: "https://lol-tracker-ivory.vercel.app", featured: true },
   { name: "NodeBB", desc: "Claim feature + multi-language translator using Azure and a custom LLM service.", tech: ["JavaScript", "Node.js", "REST API", "Azure"], github: "https://github.com/ay0503/NodeBB" },
   { name: "ATC Simulator", desc: "Python simulation of air traffic control with collision avoidance.", tech: ["Python"], github: "https://github.com/ay0503/Air-Traffic-Control-Simulator" },
 ];
 
-const skills = ["Swift", "Objective-C", "Python", "TypeScript", "React", "Node.js", "Git", "Docker", "AWS", "Go"];
+const skills = ["Swift", "Python", "TypeScript", "React", "Node.js", "Go"];
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -75,11 +75,13 @@ export default function Home() {
 
       {/* Hero */}
       <section className="hero" id="hero">
-        <span className="hero-label">Software Engineer</span>
-        <h1>I like building things.</h1>
+        <img src="/img/profile.jpg" alt="Andrew Youn" className="hero-photo" />
+        <span className="hero-label">Software Engineer · AI Builder</span>
+        <h1>I build things fast.</h1>
         <p className="hero-sub">
-          <strong>WhatsApp (Meta)</strong> · iOS Messaging Groups.
-          CMU MechE + CS. AI made shipping side projects dangerously easy.
+          <strong>WhatsApp iOS</strong> — shipping features to 2B+ users on
+          Groups &amp; Communities. I use AI to turn weird ideas into deployed
+          products, dangerously fast.
         </p>
         <div className="hero-links">
           <a href="https://github.com/ay0503" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
@@ -96,13 +98,14 @@ export default function Home() {
         <span className="section-label">About</span>
         <div className="about-text">
           <p>
-            I like building things, and AI has made that dangerously easy.
-            At work, I ship features on <strong>WhatsApp iOS</strong> for the{" "}
-            <strong>Groups &amp; Communities</strong> team. In my free time,
-            I use AI tools to go from dumb idea to deployed app as fast as
-            possible — like turning my friend&apos;s League of Legends ranked
-            grind into a full Robinhood-style trading sim with leveraged ETFs
-            and AI meme news.
+            I build products at <strong>WhatsApp</strong> and weird side projects
+            everywhere else. At work, I ship features on{" "}
+            <strong>WhatsApp iOS</strong> for Groups &amp; Communities — most
+            recently, Group History. Off the clock, I use AI to collapse the gap
+            between &quot;dumb idea&quot; and &quot;deployed app&quot; — like
+            building a full Robinhood-style trading sim around a friend&apos;s
+            League of Legends ranked grind, complete with leveraged ETFs and
+            AI-generated meme news.
           </p>
           <br />
           <p>
@@ -148,7 +151,7 @@ export default function Home() {
         </p>
         <div className="projects-list">
           {projects.map((p, i) => (
-            <div className="project-card" key={i}>
+            <div className={`project-card${p.featured ? " project-featured" : ""}`} key={i}>
               <div className="project-top">
                 <span className="project-name">{p.name}</span>
                 <div className="project-links">
@@ -170,16 +173,13 @@ export default function Home() {
       <div className="divider"><hr /></div>
 
       {/* Skills */}
-      <section className="section" id="skills">
-        <span className="section-label">Skills</span>
+      <section className="skills-strip">
         <div className="skills-row">
           {skills.map((s, i) => (
             <span className="skill-chip" key={i}>{s}</span>
           ))}
         </div>
       </section>
-
-      <div className="divider"><hr /></div>
 
       {/* Contact */}
       <section className="section" id="contact">
