@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 
 const experiences = [
-  { company: "WhatsApp (Meta)", role: "Software Engineer", date: "2025 —", team: "iOS — Groups & Communities", bullets: ["Shipped Group History — browse and search past group conversations at scale"] },
+  { company: "WhatsApp (Meta)", role: "Software Engineer", date: "2025 —", team: "iOS — Groups & Communities", bullets: ["Shipped Group History — browse and search past group conversations, fully end-to-end encrypted"] },
   { company: "Atlassian", role: "SWE Intern", date: "2024", team: "Jira Align Connectors", bullets: ["Built mass work item force sync tool, 20% productivity increase", "Migrated SQL stored procedures, 60% error rate reduction"] },
   { company: "CMU SCS", role: "Teaching Assistant", date: "2021 — 24", team: "15-112 Fundamentals of Programming", bullets: ["Led recitations, coordinated 10+ TAs for 500+ students"] },
   { company: "Atlassian", role: "SWE Intern", date: "2023", team: "Trello Backend Platform", bullets: ["Built async-safe socket testing framework", "Designed background task API with AWS SQS"] },
