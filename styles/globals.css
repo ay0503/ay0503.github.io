@@ -137,7 +137,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 1.05;
+  line-height: 1.15;
   letter-spacing: -0.04em;
   margin-bottom: 1.5rem;
 }
