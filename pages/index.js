@@ -77,7 +77,7 @@ export default function Home() {
       <section className="hero" id="hero">
         <img src="/img/profile.jpg" alt="Andrew Youn" className="hero-photo" />
         <span className="hero-label">Software Engineer · AI Builder</span>
-        <h1>I build things fast.</h1>
+        <h1>I like building everything I think of.</h1>
         <p className="hero-sub">
           <strong>WhatsApp iOS</strong> — shipping features to 2B+ users on
           Groups &amp; Communities. I use AI to turn weird ideas into deployed
